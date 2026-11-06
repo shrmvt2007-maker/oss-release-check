@@ -4,6 +4,10 @@ A small, dependency-free command-line tool that checks a local repository for co
 
 It is intended as a practical checklist for maintainers preparing a first public release or reviewing an existing repository. It reads local files only; it does not contact GitHub or any other service.
 
+## Project status
+
+This is an early-stage project. The initial version was prepared with AI assistance and has not yet been adopted by external users or contributors. Suggestions and review are welcome.
+
 ## Requirements
 
 - Python 3.10 or newer
