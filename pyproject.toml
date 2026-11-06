@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oss-release-check"
+version = "0.1.0"
+description = "A dependency-free checklist for open-source repository release basics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "OSS Release Check contributors" }]
+
+[project.scripts]
+oss-release-check = "oss_release_check:main"
+
+[tool.setuptools]
+py-modules = ["oss_release_check"]
